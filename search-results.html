@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results | Weather Dashboard</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="flex-row align-start align-stretch-md align-content-start align-content-stretch-md min-100-vh bg-primary">
+        <div class="col-3 bg-light p-3">
+          <header class="w-100">Weather Dashboard</header>
+          <form id="search" class="mb-2">
+            <input class="form-input w-100" type="text" placeholder="Los Angeles">
+            <button id="searchBtn">Search</button>
+        </form>
+        </div>
+    </div>
+
+    <div class="container col-10">
+        <h3>City Name/Date</h3>
+        <p>Temp</p>
+        <p>Wind</p>
+        <p>humidity</p>
+        <p>UV Index</p>
+    </div>
+
+    <script src="./assets/js/display-search.js"></script>
+</body>
+</html>
+
+<!-- pulls up conditions for city (present/future) -->
+<!-- saves searched city to searched history (local storage) -->
+<!-- insert city name, date, and icon representing weather conditions, temperature, humidity, wind speed, UV index -->
+<!-- UV index has a color that indicates conditions (favorable, moderate, severe) -->
+<!-- future weather conditions, 5 day forecast
+    a. displays date
+    b. icon representation
+    c. temperature
+    d. wind speed
+    e. humidity
+ -->
+ <!-- saves information to local storage -->

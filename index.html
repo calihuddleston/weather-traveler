@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Yellowtail&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 id="welcome">Welcome to your,</h1>
+     Weather Dashboard ☀️
+    </header>
+
+    <div>
+        <form id="search" class="flex-column">
+            <h2>Search for a City:</h2>
+            <input id="inputVal" class="col-12" type="text" placeholder="San Diego">
+            <button id="searchBtn">Search</button>
+        </form>
+    </div>  
+    
+    <div id="searchHistory">
+        <h2 id="prevSearch">Search History</h2>
+        <div id="city">
+            <!-- where previous searched histories go -->
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
